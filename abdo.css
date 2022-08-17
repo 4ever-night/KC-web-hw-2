@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:wght@500&display=swap');
+
+body {
+    background-color: #24252A/*#012E40*/ /*#002333*/;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  
+  
+    
+}
+
+li , a , button {
+    font-family: "Montserrat" , sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+    
+}
+
+li {
+   /*background-color:#3CA6A6 ;*/
+    border-radius: 10px 10px;
+    /*box-shadow: #000000 1px 2px 2px;*/
+  
+}
+
+
+header {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    z-index: initial;
+    background-color:  #24252A;
+    height: 100px;
+    transform-style: preserve-3d;
+    z-index: 1;
+
+      box-shadow: #000000 1px 2px 20px;
+}
+
+.logo {
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    margin-right: auto;
+   /* box-shadow: #000000 1px 2px 2px;
+    (background-color : #3CA6A6;*/
+}
+ 
+
+h3{
+  
+    cursor: pointer;
+   height: 1px;
+   width: 1px;
+    margin-left:0px;
+    margin-top: 50px;
+    color: #ecf0f1;
+    font-family:"Montserrat" ;
+    box-shadow: #000000 1px 2px 2px;
+}
+
+
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-link li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-link li a:hover {
+    color: #0088a9;
+}
+
+button {   
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color:#3CA6A6/* rgba(0, 136, 169, 1)*/;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: #000000 1px 2px 2px;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+h1 ,h2 , h4 {
+    font-family: "Montserrat";
+    border: 1px ;
+    border-radius: 10px;
+    text-align: center ;
+    padding: 10px;
+    color: #F2E3D5/*#0088a9*/;
+}
+
+.x{
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.move {
+    margin-top: 10px;
+}
+
+.poster {
+    width: 220px;
+    height: 357px;
+    /*background-color: #3CA6A6/*rgba(169, 0, 0, 0.8)*/;
+  /*  color: aliceblue;
+    border:  solid  aliceblue ;
+    border-radius: 10px;
+   
+   
+    box-shadow: #000000 1px 2px 5px;*/
+    transform-style: preserve-3d;
+ 
+     text-align: center ;
+    cursor: url("coffee-7.svg") , auto;
+ 
+}
+ 
+
+.imposter {
+    width:100% ;
+    height:100%;
+   
+    background-color: aliceblue;
+    border:  solid 2px aliceblue ;
+    box-shadow: #000000 1px 1px 50px;
+    border-radius:  20px ;
+    text-align: center ;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s  ease-in-out;
+}
+
+.imposter:hover {
+    transform: rotateY(180deg);
+    
+
+}
+.imposter > div {
+    position: absolute;
+    width:100% ;
+    height:100%;
+}
+
+.front {
+     
+    width:100% ;
+    height:100%;
+}
+
+
+
+.back {
+   
+    z-index: 1;
+    background-color: #24252A;
+    border-radius:  20px ;
+ 
+}
+
+
+.imposter .front  {
+    z-index: 2;
+    backface-visibility: hidden;
+
+ 
+}
+
+ .imposter .back {
+    z-index: 1;
+}
+ 
+.imposter .back ul {
+      z-index: 1;
+    list-style: none;
+    line-height: 2;
+    transform: rotateY(180deg);
+    
+}
+
+.back ul li { width: 110px;
+    margin-left: 50px;
+    text-align: center ;
+    background-color:  rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 9px 25px;
+    transition: all 0.3s ease-in-out;
+}
+.back ul li:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+} 
+
+.img{
+    width:100% ;
+    height:100%;
+   border-radius: 20px;
+   border: aliceblue;
+   /*position:relative ;*/
+   box-shadow: #000000 1px 1px 5px;
+   
+}
+
+
+.ico {
+    display: flex;
+    
+    width: 90px;
+    height: 90px;
+    margin-right: auto;
+    border-radius: 10px 10px;
+    
+}
+
+
+footer  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: #000000 10px 10px 100px;
+    
+}
+ .star {
+    width: 10px;
+    height: 10px;
+ }
+
+
+
